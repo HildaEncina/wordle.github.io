@@ -1,0 +1,76 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(rgba(5,7,12,0.90), rgba(5,7,12,0.90)), url(imagenes/imagen.letras.jpg) no-repeat center center fixed;
+  background-size: cover;
+  
+}
+
+
+
+h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+   
+h2{
+  
+  line-height: 1.2;
+  color: grey;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#guess-input {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border: 1px solid #ccc;
+}
+   
+#guess-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 25px;
+  background-color: #0CBABA;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.botones {
+  display: block;
+  text-align: center;
+
+}
+button:active {
+  transform: scale(0.95);
+}
+
+
+.letter {
+
+    border: 8px solid white;
+    padding: 5px;
+    margin: 5px;
+    min-width: 25px;
+    text-align: center;
+    display: inline-block
+}
+   
+.row{
+    
+      margin-bottom: 10px;
+      border-radius: 40[x];
+      text-align: center;
+}
+   
+.input-area{
+    margin: 30px;
+}
